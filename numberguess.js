@@ -2,7 +2,7 @@
 
     var guessesLeft, randomNumber, guessInput, submitButton, answerDisplay, maxGuesses;
 
-    maxGuesses = 3;
+    maxGuesses = 5;
 
     guessInput = document.getElementById("guess");
     submitButton = document.getElementById("submitAnswer");
@@ -22,7 +22,7 @@
     function initGame () {
         guessesLeft = maxGuesses;
         randomNumber = Math.floor(Math.random() * 10 + 1);
-        guessInput.value = "";
+        guessInput.value = " ";
     }
 
     function checkAnswer () {

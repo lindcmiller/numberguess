@@ -1,0 +1,49 @@
+body {
+	background-color: #F9F965;	
+	font-family: 'Raleway', sans-serif;
+	color: #584E38;
+}
+
+.container {
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.heading {
+	color: #F2A545;
+	font-family: 'Love Ya Like A Sister', sans-serif;
+	font-size: 4em;
+	text-shadow: -1px 0 #584E38, 0 1px #584E38, 1px 0 #584E38, 0 -1px #584E38;
+	margin: 3em auto 0.4em;
+}
+
+#answer {
+	margin-bottom: 1.3em;
+	display: block; 
+}
+
+input {
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	font-family: 'Love Ya Like A Sister', sans-serif;
+	font-size: 2em;
+	color: #584E38;
+	text-align: center; 
+	outline: none;
+	border: 0.05em solid #584E38;
+}
+
+#submitAnswer {
+	display: block; 
+	background-color: #F2A545;
+	color: #584E38;
+	margin: 1em auto;
+	padding: 0.5em;
+	border-radius: 1em;
+	font-family: 'Love Ya Like A Sister', sans-serif;
+	font-size: 1.5em;
+	outline: none;
+}
